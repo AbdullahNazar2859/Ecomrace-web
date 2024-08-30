@@ -1,0 +1,347 @@
+s<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="deal py-2">
+        <span>Get 25% off on your first order.</span>
+        <a href="#" class="click">Order now</a>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container gy-3">
+            <div class="logos">
+                <a class=navbar-brand href="#">
+                    <img src="Logomark.svg" alt="">
+                    <img src="Ecommerce.svg" alt="" class="ms-2">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle=""
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <div class="topIcons ms-4">
+                    <i class="ri-shopping-cart-line ri me-3"></i>
+                    <i class="ri-user-line ri-1x"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+    <section id="hero" class="pt-5">
+        <div class="row h-100">
+            <div class="col-md-7 ps-5 d-flex flex-column justify-content-center align-items-start" data-aos="fade-up"
+                data-aos-duration="1000">
+                <h1 class="mb-3">Fresh Arrivals Online</h1>
+                <p class="mb-5">Discover our newest collection today</p>
+                <a href="#" class="btn btn-primary">View Collection <i class="ri-arrow-right-line"></i></a>
+            </div>
+
+            <div class="col-md-5 position-relative">
+                <div class="hero-right">
+                    <div class="hero-circle"></div>
+                    <img src="hero-image.png" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="specification" data-aos="zoom-out-up">
+        <div class="container  mt-3 mb-5">
+            <div class="row pt-5">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="rounded-circle bg-secondary-subtle d-flex justify-content-center align-items-center mb-4"
+                        style="width: 50px; height: 50px;">
+                        <i class="ri-truck-line ri-2x"></i>
+                    </div>
+                    <h4 class="mb-3">Free Shipping</h4>
+                    <p>Upgrade your style today and get FREE <br>shipping on all orders! Don't miss out.</p>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                    <div class="rounded-circle bg-secondary-subtle d-flex justify-content-center align-items-center mb-4"
+                        style="width: 50px; height: 50px;">
+                        <i class="ri-award-line ri-2x"></i>
+                    </div>
+                    <h4 class="mb-3">Satisfaction Guarantee</h4>
+                    <p>Shop confidently with our Satisfaction <br>Guarantee: Love it or get a refund.</p>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                    <div class="rounded-circle bg-secondary-subtle d-flex justify-content-center align-items-center mb-4"
+                        style="width: 50px; height: 50px;">
+                        <i class="ri-shield-check-line ri-2x"></i>
+                    </div>
+                    <h4 class="mb-3">Secure Payment</h4>
+                    <p>Your security is our priority. Your <br>payments are secure with us.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shopnow ">
+        <div class="container">
+            <div class="text p-4">
+                <p class="text-center">Shop Now</p>
+                <h5 class="text-center">Best Selling</h5>
+            </div>
+            <div class="row">
+                <div class="col-md-3" data-aos="fade-down" data-aos-duration="1000">
+                    <div class="p-4">
+                        <div class="bg-secondary-subtle text-center">
+                            <img src="shirt-1.png" class="img-fluid">
+                        </div>
+                        <h6 class="mt-4 mb-2">Classic Monochrome Tees</h6>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <p class="border rounded-pill px-3 py-1 me-2" style="font-size: 13px;">IN STOCK</p>
+                            <p>$35.50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="p-4">
+                        <div class="bg-secondary-subtle text-center">
+                            <img src="shirt-2 (1).png" class="img-fluid">
+                        </div>
+                        <h6 class="mt-4 mb-2">Monochromatic Wardrobe</h6>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <p class="border rounded-pill px-3 py-1 me-2" style="font-size: 13px;">IN STOCK</p>
+                            <p>$50.50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
+                    <div class="p-4">
+                        <div class="bg-secondary-subtle text-center">
+                            <img src="shirt-3.png" class="img-fluid">
+                        </div>
+                        <h6 class="mt-4 mb-2">Essential Neutrals</h6>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <p class="border rounded-pill px-3 py-1 me-2" style="font-size: 13px;">IN STOCK</p>
+                            <p>$40.50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+                    <div class="p-4">
+                        <div class="bg-secondary-subtle text-center">
+                            <img src="shirt-4.png" class="img-fluid">
+                        </div>
+                        <h6 class="mt-4 mb-2">UTRAANET Black</h6>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <p class="border rounded-pill px-3 py-1 me-2" style="font-size: 13px;">IN STOCK</p>
+                            <p>$80.50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="swater mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 p-5 py-5">
+                    <h4>Browser our fasion Paradies</h4>
+                    <p>Step into a word of style and explore our diverse collection of <br>clotting catagries</p>
+                    <a href="#" class="btn btn-primary">start Browsing<i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="col-md-5">
+                    <img src="category-img.png" alt="" class="swatter-img">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="jackets">
+        <div class="container">
+            <div class="text-center my-4" style="padding-top: 70px;">
+                <label class="px-2 border rounded-pill">featured</label>
+                <label class="ms-4">Latest</label>
+            </div>
+            <div class="row">
+                <div class="col-md-3" data-aos="fade-down" data-aos-duration="1000">
+                    <div class="p-4">
+                        <div class="bg-secondary-subtle text-center">
+                            <img src="featured-1.png" class="img-fluid">
+                        </div>
+                        <h6 class="mt-4 mb-2">Elegent Ebony Sweatshirts</h6>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <p class="border rounded-pill px-3 py-1 me-2" style="font-size: 13px;">IN STOCK</p>
+                            <p>$35.50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="p-4">
+                        <div class="bg-secondary-subtle text-center">
+                            <img src="featured-2.png" class="img-fluid">
+                        </div>
+                        <h6 class="mt-4 mb-2">sleak and cozy Black</h6>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <p class="border rounded-pill px-3 py-1 me-2" style="font-size: 13px;">IN STOCK</p>
+                            <p>$57.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
+                    <div class="p-4">
+                        <div class="bg-secondary-subtle text-center">
+                            <img src="featured-3.png" class="img-fluid">
+                        </div>
+                        <h6 class="mt-4 mb-2">Raw Black tees</h6>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <p class="border rounded-pill px-3 py-1 me-2" style="font-size: 13px;">IN STOCK</p>
+                            <p>$19.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+                    <div class="p-4">
+                        <div class="bg-secondary-subtle text-center">
+                            <img src="featured-4.png" class="img-fluid">
+                        </div>
+                        <h6 class="mt-4 mb-2">mockup Black</h6>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <p class="border rounded-pill px-3 py-1 me-2" style="font-size: 13px;">IN STOCK</p>
+                            <p>$30.50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newlatter ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="py-2">Join Our Newsletter</h2>
+                    <p>We love to surprise our subscribers with occasional gifts.</p>
+                </div>
+                <div class="col-md-4 p-4">
+                    <div class="d-flex">
+                        <input type="text" class="form-control me-3 py-2" placeholder="Your email address">
+                        <a href="#" class="btn btn-primary">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo mb-4">
+                        <img src="Logomark.svg" alt="" class="pe-2">
+                        <img src="Ecommerce.svg" alt="">
+                    </div>
+                    <div class="Para">
+                        <p> DevCut is a YouTube channel for <br> practical project-based learning.</p>
+
+                    </div>
+                    <div>
+                        <i class="ri-github-line ri-lg me-3"></i>
+                        <i class="ri-instagram-line ri-lg me-3"></i>
+                        <i class="ri-youtube-line ri-lg"></i>
+                    </div>
+
+                </div>
+                <div class="col-md-6 ms-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h6 class="mb-5">Support</h6>
+                            <a href="#" class="link">Faq</a><br>
+                            <a href="#" class="link">Term of use</a><br>
+                            <a href="#" class="link">Privecy policey</a>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="mb-5">Companey</h6>
+                            <a href="#" class="link">About</a><br>
+                            <a href="#" class="link">Countect</a><br>
+                            <a href="#" class="link">Carees</a>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="mb-5">Shop</h6>
+                            <a href="#" class="link">My Account</a><br>
+                            <a href="#" class="link">Checkout</a><br>
+                            <a href="#" class="linl">Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+
+                    <p>ACCEPTED PAYMENTS</p>
+                    <img src="Payments.png" alt="">
+                </div>
+
+
+
+            </div>
+        </div>
+
+        
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

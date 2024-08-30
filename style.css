@@ -1,0 +1,100 @@
+:root {
+    --dark-blue: #0E1422;
+    --light-blue: #162953;
+    --light-gray: #F6F6F6;
+    --dark-gray: #eeeeef;
+
+
+}
+
+#hero {
+    padding: 20px;
+    background-color: var(--light-gray);
+    height: 450px;
+}
+
+.hero-circle {
+
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    background-color: var(--dark-gray);
+}
+
+.hero-image {
+    height: 428px;
+    position: absolute;
+    top: -26px;
+    left: 79px;
+}
+
+.deal {
+    background-color: var(--dark-blue);
+    text-align: center;
+    color: white;
+}
+
+.click {
+    text-decoration: none;
+    color: white;
+}
+
+.logos {
+    gap: 1px;
+}
+
+.btn {
+    background-color: var(--dark-blue);
+}
+
+.swatter-img {
+    height: 250px;
+    width: 200px;
+    margin-left: 120px;
+}
+
+.swater {
+    background-color: var(--light-gray);
+}
+
+.specification {
+   ;
+}
+
+#shopnow {
+   
+}
+
+.newlatter {
+    background-color: var(--dark-gray);
+    padding-top: 80px;
+    
+    margin-bottom: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.link {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width :768px) {
+    .hero-circle {
+        display: none;
+    }
+
+    #hero {
+        height: 628px;
+       
+    }
+
+    .hero-image {
+        position: relative;
+        margin-top: 10px;
+        margin: 10px 25% 0px 25%;
+    }
+}
